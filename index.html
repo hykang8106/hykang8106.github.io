@@ -199,6 +199,7 @@ POST https://smart.letskorail.com/classes/com.korail.mobile.login.Login net::ERR
           myArticle.innerText = `Error: ${error.message}`;
         }); */
 
+    // fetch(KorailLogin, options)
     fetch(KorailLogin, options)
         .then((response) => {
           if (!response.ok) {
