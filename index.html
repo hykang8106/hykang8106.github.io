@@ -201,7 +201,7 @@ POST https://smart.letskorail.com/classes/com.korail.mobile.login.Login net::ERR
 
     fetch(KorailLogin, options)
         .then((response) => {
-          if (!!response.ok) {
+          if (!response.ok) {
             throw new Error(`HTTP error, status = ${response.status}`);
           }
           return response.text();
