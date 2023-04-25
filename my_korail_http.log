@@ -1,0 +1,90 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): smart.letskorail.com:443
+DEBUG:http.client:send: b'GET /classes/com.korail.mobile.login.Login?Device=AD&Version=150718001&txtInputFlg=2&txtMemberNo=0473157658&txtPwd=uresj35805%21 HTTP/1.1\r\nHost: smart.letskorail.com\r\nUser-Agent: M\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+DEBUG:http.client:reply: 'HTTP/1.1 200 OK\r\n'
+DEBUG:http.client:header: Date: Tue, 25 Apr 2023 01:38:53 GMT
+DEBUG:http.client:header: Content-Type: text/plain;charset=utf-8
+DEBUG:http.client:header: Connection: Keep-Alive
+DEBUG:http.client:header: Set-Cookie: JSESSIONID=LSRuXpi3Cx6s8G3QClZ2t0hRWo0ycoNj3FOgZBsRm94AzAqBxmGEa4DsCBcaYwJB.kr010_servlet_engine3;Path=/;HttpOnly
+DEBUG:http.client:header: Transfer-Encoding: chunked
+DEBUG:urllib3.connectionpool:https://smart.letskorail.com:443 "GET /classes/com.korail.mobile.login.Login?Device=AD&Version=150718001&txtInputFlg=2&txtMemberNo=0473157658&txtPwd=uresj35805%21 HTTP/1.1" 200 None
+DEBUG:http.client:send: b'GET /classes/com.korail.mobile.seatMovie.ScheduleView?Device=AD&radJobId=1&selGoTrain=102&txtCardPsgCnt=0&txtGdNo=&txtGoAbrdDt=20230425&txtGoEnd=%EC%8B%A0%ED%83%84%EC%A7%84&txtGoHour=120000&txtGoStart=%EB%B6%80%EA%B0%95&txtJobDv=&txtMenuId=11&txtPsgFlg_1=1&txtPsgFlg_2=0&txtPsgFlg_3=0&txtPsgFlg_4=0&txtPsgFlg_5=0&txtSeatAttCd_2=000&txtSeatAttCd_3=000&txtSeatAttCd_4=015&txtTrnGpCd=102&Version=190617001 HTTP/1.1\r\nHost: smart.letskorail.com\r\nUser-Agent: M\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\nCookie: JSESSIONID=LSRuXpi3Cx6s8G3QClZ2t0hRWo0ycoNj3FOgZBsRm94AzAqBxmGEa4DsCBcaYwJB.kr010_servlet_engine3\r\n\r\n'
+DEBUG:http.client:reply: 'HTTP/1.1 200 OK\r\n'
+DEBUG:http.client:header: Date: Tue, 25 Apr 2023 01:39:35 GMT
+DEBUG:http.client:header: Content-Type: text/plain;charset=utf-8
+DEBUG:http.client:header: Connection: Keep-Alive
+DEBUG:http.client:header: Transfer-Encoding: chunked
+DEBUG:urllib3.connectionpool:https://smart.letskorail.com:443 "GET /classes/com.korail.mobile.seatMovie.ScheduleView?Device=AD&radJobId=1&selGoTrain=102&txtCardPsgCnt=0&txtGdNo=&txtGoAbrdDt=20230425&txtGoEnd=%EC%8B%A0%ED%83%84%EC%A7%84&txtGoHour=120000&txtGoStart=%EB%B6%80%EA%B0%95&txtJobDv=&txtMenuId=11&txtPsgFlg_1=1&txtPsgFlg_2=0&txtPsgFlg_3=0&txtPsgFlg_4=0&txtPsgFlg_5=0&txtSeatAttCd_2=000&txtSeatAttCd_3=000&txtSeatAttCd_4=015&txtTrnGpCd=102&Version=190617001 HTTP/1.1" 200 None
+DEBUG:http.client:send: b'GET /classes/com.korail.mobile.certification.TicketReservation?Device=AD&Version=190617001&Key=korail1234567890&txtGdNo=&txtJobId=1101&txtTotPsgCnt=1&txtSeatAttCd1=000&txtSeatAttCd2=000&txtSeatAttCd3=000&txtSeatAttCd4=015&txtSeatAttCd5=000&hidFreeFlg=N&txtStndFlg=N&txtMenuId=11&txtSrcarCnt=0&txtJrnyCnt=1&txtJrnySqno1=001&txtJrnyTpCd1=11&txtDptDt1=20230425&txtDptRsStnCd1=0008&txtDptTm1=191300&txtArvRsStnCd1=0009&txtTrnNo1=1221&txtRunDt1=20230425&txtTrnClsfCd1=02&txtPsrmClCd1=1&txtTrnGpCd1=102&txtChgFlg1=&txtJrnySqno2=&txtJrnyTpCd2=&txtDptDt2=&txtDptRsStnCd2=&txtDptTm2=&txtArvRsStnCd2=&txtTrnNo2=&txtRunDt2=&txtTrnClsfCd2=&txtPsrmClCd2=&txtChgFlg2=&txtPsgTpCd1=1&txtDiscKndCd1=000&txtCompaCnt1=1&txtCardCode_1=&txtCardNo_1=&txtCardPw_1= HTTP/1.1\r\nHost: smart.letskorail.com\r\nUser-Agent: M\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\nCookie: JSESSIONID=LSRuXpi3Cx6s8G3QClZ2t0hRWo0ycoNj3FOgZBsRm94AzAqBxmGEa4DsCBcaYwJB.kr010_servlet_engine3\r\n\r\n'
+DEBUG:http.client:reply: 'HTTP/1.1 200 OK\r\n'
+DEBUG:http.client:header: Date: Tue, 25 Apr 2023 01:39:49 GMT
+DEBUG:http.client:header: Content-Type: application/json;charset=UTF-8
+DEBUG:http.client:header: Connection: Keep-Alive
+DEBUG:http.client:header: Transfer-Encoding: chunked
+DEBUG:urllib3.connectionpool:https://smart.letskorail.com:443 "GET /classes/com.korail.mobile.certification.TicketReservation?Device=AD&Version=190617001&Key=korail1234567890&txtGdNo=&txtJobId=1101&txtTotPsgCnt=1&txtSeatAttCd1=000&txtSeatAttCd2=000&txtSeatAttCd3=000&txtSeatAttCd4=015&txtSeatAttCd5=000&hidFreeFlg=N&txtStndFlg=N&txtMenuId=11&txtSrcarCnt=0&txtJrnyCnt=1&txtJrnySqno1=001&txtJrnyTpCd1=11&txtDptDt1=20230425&txtDptRsStnCd1=0008&txtDptTm1=191300&txtArvRsStnCd1=0009&txtTrnNo1=1221&txtRunDt1=20230425&txtTrnClsfCd1=02&txtPsrmClCd1=1&txtTrnGpCd1=102&txtChgFlg1=&txtJrnySqno2=&txtJrnyTpCd2=&txtDptDt2=&txtDptRsStnCd2=&txtDptTm2=&txtArvRsStnCd2=&txtTrnNo2=&txtRunDt2=&txtTrnClsfCd2=&txtPsrmClCd2=&txtChgFlg2=&txtPsgTpCd1=1&txtDiscKndCd1=000&txtCompaCnt1=1&txtCardCode_1=&txtCardNo_1=&txtCardPw_1= HTTP/1.1" 200 None
+DEBUG:http.client:send: b'GET /classes/com.korail.mobile.reservation.ReservationView?Device=AD&Version=190617001&Key=korail1234567890 HTTP/1.1\r\nHost: smart.letskorail.com\r\nUser-Agent: M\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\nCookie: JSESSIONID=LSRuXpi3Cx6s8G3QClZ2t0hRWo0ycoNj3FOgZBsRm94AzAqBxmGEa4DsCBcaYwJB.kr010_servlet_engine3\r\n\r\n'
+DEBUG:http.client:reply: 'HTTP/1.1 200 OK\r\n'
+DEBUG:http.client:header: Date: Tue, 25 Apr 2023 01:39:50 GMT
+DEBUG:http.client:header: Content-Type: application/json;charset=UTF-8
+DEBUG:http.client:header: Connection: Keep-Alive
+DEBUG:http.client:header: Transfer-Encoding: chunked
+DEBUG:urllib3.connectionpool:https://smart.letskorail.com:443 "GET /classes/com.korail.mobile.reservation.ReservationView?Device=AD&Version=190617001&Key=korail1234567890 HTTP/1.1" 200 None
+================= start new session ==================================
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): smart.letskorail.com:443
+DEBUG:http.client:send: b'GET /classes/com.korail.mobile.login.Login?Device=AD&Version=150718001&txtInputFlg=2&txtMemberNo=0473157658&txtPwd=uresj35805%21 HTTP/1.1\r\nHost: smart.letskorail.com\r\nUser-Agent: M\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+DEBUG:http.client:reply: 'HTTP/1.1 200 OK\r\n'
+DEBUG:http.client:header: Date: Tue, 25 Apr 2023 01:43:46 GMT
+DEBUG:http.client:header: Set-Cookie: WMONID=MuD8eGa27oq; Expires=Wed, 24-Apr-2024 10:43:46 GMT; Path=/
+DEBUG:http.client:header: Content-Type: text/plain;charset=utf-8
+DEBUG:http.client:header: Connection: Keep-Alive
+DEBUG:http.client:header: Set-Cookie: JSESSIONID=25Uu52BVv12XxO1To2TP56iaeBlm8l363gTa3Ia6dTmJRiHhxPYN4W1gJE6A1Q7G.kr007_servlet_engine1;Path=/;HttpOnly
+DEBUG:http.client:header: Transfer-Encoding: chunked
+DEBUG:urllib3.connectionpool:https://smart.letskorail.com:443 "GET /classes/com.korail.mobile.login.Login?Device=AD&Version=150718001&txtInputFlg=2&txtMemberNo=0473157658&txtPwd=uresj35805%21 HTTP/1.1" 200 None
+DEBUG:http.client:send: b'GET /classes/com.korail.mobile.seatMovie.ScheduleView?Device=AD&radJobId=1&selGoTrain=102&txtCardPsgCnt=0&txtGdNo=&txtGoAbrdDt=20230425&txtGoEnd=%EC%8B%A0%ED%83%84%EC%A7%84&txtGoHour=120000&txtGoStart=%EB%B6%80%EA%B0%95&txtJobDv=&txtMenuId=11&txtPsgFlg_1=1&txtPsgFlg_2=0&txtPsgFlg_3=0&txtPsgFlg_4=0&txtPsgFlg_5=0&txtSeatAttCd_2=000&txtSeatAttCd_3=000&txtSeatAttCd_4=015&txtTrnGpCd=102&Version=190617001 HTTP/1.1\r\nHost: smart.letskorail.com\r\nUser-Agent: M\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\nCookie: JSESSIONID=25Uu52BVv12XxO1To2TP56iaeBlm8l363gTa3Ia6dTmJRiHhxPYN4W1gJE6A1Q7G.kr007_servlet_engine1; WMONID=MuD8eGa27oq\r\n\r\n'
+DEBUG:http.client:reply: 'HTTP/1.1 200 OK\r\n'
+DEBUG:http.client:header: Date: Tue, 25 Apr 2023 01:44:21 GMT
+DEBUG:http.client:header: Content-Type: text/plain;charset=utf-8
+DEBUG:http.client:header: Connection: Keep-Alive
+DEBUG:http.client:header: Transfer-Encoding: chunked
+DEBUG:urllib3.connectionpool:https://smart.letskorail.com:443 "GET /classes/com.korail.mobile.seatMovie.ScheduleView?Device=AD&radJobId=1&selGoTrain=102&txtCardPsgCnt=0&txtGdNo=&txtGoAbrdDt=20230425&txtGoEnd=%EC%8B%A0%ED%83%84%EC%A7%84&txtGoHour=120000&txtGoStart=%EB%B6%80%EA%B0%95&txtJobDv=&txtMenuId=11&txtPsgFlg_1=1&txtPsgFlg_2=0&txtPsgFlg_3=0&txtPsgFlg_4=0&txtPsgFlg_5=0&txtSeatAttCd_2=000&txtSeatAttCd_3=000&txtSeatAttCd_4=015&txtTrnGpCd=102&Version=190617001 HTTP/1.1" 200 None
+DEBUG:http.client:send: b'GET /classes/com.korail.mobile.certification.TicketReservation?Device=AD&Version=190617001&Key=korail1234567890&txtGdNo=&txtJobId=1101&txtTotPsgCnt=1&txtSeatAttCd1=000&txtSeatAttCd2=000&txtSeatAttCd3=000&txtSeatAttCd4=015&txtSeatAttCd5=000&hidFreeFlg=N&txtStndFlg=N&txtMenuId=11&txtSrcarCnt=0&txtJrnyCnt=1&txtJrnySqno1=001&txtJrnyTpCd1=11&txtDptDt1=20230425&txtDptRsStnCd1=0008&txtDptTm1=195700&txtArvRsStnCd1=0009&txtTrnNo1=4304&txtRunDt1=20230425&txtTrnClsfCd1=02&txtPsrmClCd1=1&txtTrnGpCd1=102&txtChgFlg1=&txtJrnySqno2=&txtJrnyTpCd2=&txtDptDt2=&txtDptRsStnCd2=&txtDptTm2=&txtArvRsStnCd2=&txtTrnNo2=&txtRunDt2=&txtTrnClsfCd2=&txtPsrmClCd2=&txtChgFlg2=&txtPsgTpCd1=1&txtDiscKndCd1=000&txtCompaCnt1=1&txtCardCode_1=&txtCardNo_1=&txtCardPw_1= HTTP/1.1\r\nHost: smart.letskorail.com\r\nUser-Agent: M\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\nCookie: JSESSIONID=25Uu52BVv12XxO1To2TP56iaeBlm8l363gTa3Ia6dTmJRiHhxPYN4W1gJE6A1Q7G.kr007_servlet_engine1; WMONID=MuD8eGa27oq\r\n\r\n'
+DEBUG:http.client:reply: 'HTTP/1.1 200 OK\r\n'
+DEBUG:http.client:header: Date: Tue, 25 Apr 2023 01:44:33 GMT
+DEBUG:http.client:header: Content-Type: application/json;charset=UTF-8
+DEBUG:http.client:header: Connection: Keep-Alive
+DEBUG:http.client:header: Transfer-Encoding: chunked
+DEBUG:urllib3.connectionpool:https://smart.letskorail.com:443 "GET /classes/com.korail.mobile.certification.TicketReservation?Device=AD&Version=190617001&Key=korail1234567890&txtGdNo=&txtJobId=1101&txtTotPsgCnt=1&txtSeatAttCd1=000&txtSeatAttCd2=000&txtSeatAttCd3=000&txtSeatAttCd4=015&txtSeatAttCd5=000&hidFreeFlg=N&txtStndFlg=N&txtMenuId=11&txtSrcarCnt=0&txtJrnyCnt=1&txtJrnySqno1=001&txtJrnyTpCd1=11&txtDptDt1=20230425&txtDptRsStnCd1=0008&txtDptTm1=195700&txtArvRsStnCd1=0009&txtTrnNo1=4304&txtRunDt1=20230425&txtTrnClsfCd1=02&txtPsrmClCd1=1&txtTrnGpCd1=102&txtChgFlg1=&txtJrnySqno2=&txtJrnyTpCd2=&txtDptDt2=&txtDptRsStnCd2=&txtDptTm2=&txtArvRsStnCd2=&txtTrnNo2=&txtRunDt2=&txtTrnClsfCd2=&txtPsrmClCd2=&txtChgFlg2=&txtPsgTpCd1=1&txtDiscKndCd1=000&txtCompaCnt1=1&txtCardCode_1=&txtCardNo_1=&txtCardPw_1= HTTP/1.1" 200 None
+DEBUG:http.client:send: b'GET /classes/com.korail.mobile.reservation.ReservationView?Device=AD&Version=190617001&Key=korail1234567890 HTTP/1.1\r\nHost: smart.letskorail.com\r\nUser-Agent: M\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\nCookie: JSESSIONID=25Uu52BVv12XxO1To2TP56iaeBlm8l363gTa3Ia6dTmJRiHhxPYN4W1gJE6A1Q7G.kr007_servlet_engine1; WMONID=MuD8eGa27oq\r\n\r\n'
+DEBUG:http.client:reply: 'HTTP/1.1 200 OK\r\n'
+DEBUG:http.client:header: Date: Tue, 25 Apr 2023 01:44:33 GMT
+DEBUG:http.client:header: Content-Type: application/json;charset=UTF-8
+DEBUG:http.client:header: Connection: Keep-Alive
+DEBUG:http.client:header: Transfer-Encoding: chunked
+DEBUG:urllib3.connectionpool:https://smart.letskorail.com:443 "GET /classes/com.korail.mobile.reservation.ReservationView?Device=AD&Version=190617001&Key=korail1234567890 HTTP/1.1" 200 None
+DEBUG:http.client:send: b'GET /classes/com.korail.mobile.reservation.ReservationView?Device=AD&Version=190617001&Key=korail1234567890 HTTP/1.1\r\nHost: smart.letskorail.com\r\nUser-Agent: M\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\nCookie: JSESSIONID=25Uu52BVv12XxO1To2TP56iaeBlm8l363gTa3Ia6dTmJRiHhxPYN4W1gJE6A1Q7G.kr007_servlet_engine1; WMONID=MuD8eGa27oq\r\n\r\n'
+DEBUG:http.client:reply: 'HTTP/1.1 200 OK\r\n'
+DEBUG:http.client:header: Date: Tue, 25 Apr 2023 01:44:40 GMT
+DEBUG:http.client:header: Content-Type: application/json;charset=UTF-8
+DEBUG:http.client:header: Connection: Keep-Alive
+DEBUG:http.client:header: Transfer-Encoding: chunked
+DEBUG:urllib3.connectionpool:https://smart.letskorail.com:443 "GET /classes/com.korail.mobile.reservation.ReservationView?Device=AD&Version=190617001&Key=korail1234567890 HTTP/1.1" 200 None
+DEBUG:http.client:send: b'GET /classes/com.korail.mobile.myTicket.MyTicketList?Device=AD&Version=190617001&Key=korail1234567890&txtIndex=1&h_page_no=1&txtDeviceId=&h_abrd_dt_from=&h_abrd_dt_to= HTTP/1.1\r\nHost: smart.letskorail.com\r\nUser-Agent: M\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\nCookie: JSESSIONID=25Uu52BVv12XxO1To2TP56iaeBlm8l363gTa3Ia6dTmJRiHhxPYN4W1gJE6A1Q7G.kr007_servlet_engine1; WMONID=MuD8eGa27oq\r\n\r\n'
+DEBUG:http.client:reply: 'HTTP/1.1 200 OK\r\n'
+DEBUG:http.client:header: Date: Tue, 25 Apr 2023 01:44:51 GMT
+DEBUG:http.client:header: Content-Type: application/json;charset=UTF-8
+DEBUG:http.client:header: Connection: Keep-Alive
+DEBUG:http.client:header: Transfer-Encoding: chunked
+DEBUG:urllib3.connectionpool:https://smart.letskorail.com:443 "GET /classes/com.korail.mobile.myTicket.MyTicketList?Device=AD&Version=190617001&Key=korail1234567890&txtIndex=1&h_page_no=1&txtDeviceId=&h_abrd_dt_from=&h_abrd_dt_to= HTTP/1.1" 200 None
+DEBUG:http.client:send: b'GET /classes/com.korail.mobile.refunds.SelTicketInfo?Device=AD&Version=190617001&Key=korail1234567890&h_orgtk_wct_no=82111&h_orgtk_ret_sale_dt=0417&h_orgtk_sale_sqno=10613&h_orgtk_ret_pwd=59 HTTP/1.1\r\nHost: smart.letskorail.com\r\nUser-Agent: M\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\nCookie: JSESSIONID=25Uu52BVv12XxO1To2TP56iaeBlm8l363gTa3Ia6dTmJRiHhxPYN4W1gJE6A1Q7G.kr007_servlet_engine1; WMONID=MuD8eGa27oq\r\n\r\n'
+DEBUG:http.client:reply: 'HTTP/1.1 200 OK\r\n'
+DEBUG:http.client:header: Date: Tue, 25 Apr 2023 01:44:51 GMT
+DEBUG:http.client:header: Content-Type: application/json;charset=UTF-8
+DEBUG:http.client:header: Connection: Keep-Alive
+DEBUG:http.client:header: Transfer-Encoding: chunked
+DEBUG:urllib3.connectionpool:https://smart.letskorail.com:443 "GET /classes/com.korail.mobile.refunds.SelTicketInfo?Device=AD&Version=190617001&Key=korail1234567890&h_orgtk_wct_no=82111&h_orgtk_ret_sale_dt=0417&h_orgtk_sale_sqno=10613&h_orgtk_ret_pwd=59 HTTP/1.1" 200 None
+DEBUG:http.client:send: b'GET /classes/com.korail.mobile.refunds.SelTicketInfo?Device=AD&Version=190617001&Key=korail1234567890&h_orgtk_wct_no=82124&h_orgtk_ret_sale_dt=0421&h_orgtk_sale_sqno=13218&h_orgtk_ret_pwd=56 HTTP/1.1\r\nHost: smart.letskorail.com\r\nUser-Agent: M\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\nCookie: JSESSIONID=25Uu52BVv12XxO1To2TP56iaeBlm8l363gTa3Ia6dTmJRiHhxPYN4W1gJE6A1Q7G.kr007_servlet_engine1; WMONID=MuD8eGa27oq\r\n\r\n'
+DEBUG:http.client:reply: 'HTTP/1.1 200 OK\r\n'
+DEBUG:http.client:header: Date: Tue, 25 Apr 2023 01:44:51 GMT
+DEBUG:http.client:header: Content-Type: application/json;charset=UTF-8
+DEBUG:http.client:header: Connection: Keep-Alive
+DEBUG:http.client:header: Transfer-Encoding: chunked
+DEBUG:urllib3.connectionpool:https://smart.letskorail.com:443 "GET /classes/com.korail.mobile.refunds.SelTicketInfo?Device=AD&Version=190617001&Key=korail1234567890&h_orgtk_wct_no=82124&h_orgtk_ret_sale_dt=0421&h_orgtk_sale_sqno=13218&h_orgtk_ret_pwd=56 HTTP/1.1" 200 None
