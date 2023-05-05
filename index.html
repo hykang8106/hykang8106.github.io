@@ -20,6 +20,7 @@
     <article></article>
   </body>
   <script>
+
     const KorailMobile = "https://smart.letskorail.com:443/classes/com.korail.mobile";
     var KorailLogin = KorailMobile + ".login.Login";
     const KorailSearchSchedule = KorailMobile + ".seatMovie.ScheduleView";
@@ -126,9 +127,9 @@ POST https://smart.letskorail.com/classes/com.korail.mobile.login.Login net::ERR
     }); */
 
     const options = {
-      // method: "GET",
+      method: "GET",
       // mode: "cors",
-      mode: "no-cors",
+      // mode: "no-cors",
       // credentials: "omit", // include, *same-origin, omit
       /* headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
