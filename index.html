@@ -141,6 +141,7 @@ POST https://smart.letskorail.com/classes/com.korail.mobile.login.Login net::ERR
     */
 
     const xhr = new XMLHttpRequest();
+    xhr.withCredentials = true;
     xhr.open('GET', KorailLogin);
     xhr.send();
 
