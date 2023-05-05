@@ -125,30 +125,6 @@ POST https://smart.letskorail.com/classes/com.korail.mobile.login.Login net::ERR
       // "User-Agent"   : ""
     }); */
 
-    const options = {
-      // method: "GET",
-      // mode: "cors",
-      mode: "no-cors",
-      // credentials: "omit", // include, *same-origin, omit
-      /* headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-      } */
-      /* headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-      }, */
-      // referrerPolicy: "no-referrer",
-      // body: formBody,
-    };
-
-    /* async function fetchKorail() {
-      let response = await fetch(KorailLogin, options);
-
-      return response;
-
-      
-
-    } */
-
     /* console.log(response.statusText);
       console.log(response);
       console.log(await response.headers.get('Content-Type'));
@@ -156,13 +132,6 @@ POST https://smart.letskorail.com/classes/com.korail.mobile.login.Login net::ERR
       for (let [key, value] of response.headers) {
             console.log(`${key} = ${value}`);
       } */
-
-    /* const promise = fetchKorail();
-    promise.then((response) => {
-      console.log(response.type);
-      console.log(response.status);
-    });
- */
     /* 
     #####################################################################
     when mode:"no-cors"(respopnse.type: "opaque"), "fetch" is failed!!
@@ -171,67 +140,34 @@ POST https://smart.letskorail.com/classes/com.korail.mobile.login.Login net::ERR
     #####################################################################
     */
 
-    /* const xhr = new XMLHttpRequest();
-    xhr.open("POST", KorailLogin);
-    xhr.setRequestHeader("X-PINGOTHER", "pingpong");
-    xhr.setRequestHeader("Content-Type", "text/xml");
-    // xhr.onreadystatechange = handler;
-    xhr.send("<person><name>Arun</name></person>"); */
+    const xhr = new XMLHttpRequest();
+    xhr.withCredentials = true;
+    xhr.open('GET', KorailLogin);
+    xhr.send();
 
+    // 4. This will be called after the response is received
+    xhr.onload = function() {
+      if (xhr.status != 200) { // analyze HTTP status of the response
+        alert(`Error ${xhr.status}: ${xhr.statusText}`); // e.g. 404: Not Found
+      } else { // show the result
+        alert(`Done, got ${xhr.response.length} bytes`); // response is the server response
+      }
+    };
 
+    xhr.onprogress = function(event) {
+      if (event.lengthComputable) {
+        alert(`Received ${event.loaded} of ${event.total} bytes`);
+      } else {
+        alert(`Received ${event.loaded} bytes`); // no Content-Length
+      }
 
-    // KorailLogin, options
+    };
+    
 
-    /* fetch(KorailLogin, options)
-        .then((response) => {
-          console.log(response.status);
-          console.log(response.headers);
+    xhr.onerror = function() {
+      alert("Request failed");
+    };
 
-          for (let [key, value] of response.headers) {
-            console.log(`${key} = ${value}`);
-          }
-          // return response.text();
-        }); */
-        /* .then((text) => {
-          myArticle.innerText = text;
-        })
-        .catch((error) => {
-          myArticle.innerText = `Error: ${error.message}`;
-        }); */
-
-    fetch(KorailLogin, options)
-        .then((response) => {
-          if (!response.ok) {
-            throw new Error(`HTTP error, status = ${response.status}`);
-          }
-          return response.text();
-        })
-        .then((text) => {
-          myArticle.innerText = text;
-        })
-        .catch((error) => {
-          myArticle.innerText = `Error: ${error.message}`;
-        });
-
-
-    /* function getData(pageId) {
-      console.log(pageId);
-      const myRequest = new Request(`${pageId}.txt`);
-
-      fetch(myRequest)
-        .then((response) => {
-          if (!response.ok) {
-            throw new Error(`HTTP error, status = ${response.status}`);
-          }
-          return response.text();
-        })
-        .then((text) => {
-          myArticle.innerText = text;
-        })
-        .catch((error) => {
-          myArticle.innerText = `Error: ${error.message}`;
-        });
-    } */
   </script>
 </html>
 
